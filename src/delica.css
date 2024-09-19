@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+   
+}
+.p{
+    border: radius 30px;
+    font-size: medium;
+    text-align: center;
+   
+}
+
+
+table{
+border: 10px;
+width: 50%;
+font-style: italic;
+text-align: center;
+border-radius: 10px;
+margin:0 auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+div ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+div ul li {
+    margin: 0 15px;
+}
+
+div ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #efcaca;
+    border-radius: 8px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+
+}
+
+
+.d {
+    font-size: medium;
+    display:list-item;
+    padding:20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #f0d0d0;
+    border-radius: 8px;
+    text-align:center;
+
+}
+
+.c{
+    font-size: medium;
+    padding:20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #d8b6c8;
+    border-radius: 8px;
+    text-align:center;
+
+}
